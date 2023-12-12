@@ -8,7 +8,7 @@ const components = [
     title: "Map.index",
     category: "Map",
     authorId: "efiz.near",
-    path: "efiz.near/widget/Map.index",
+    path: "/*__@appAccount__*//widget/Map.index",
     description:
       "This Mapjox.js template helps builders put data on their map.",
     demoProps: { markers },
@@ -27,7 +27,7 @@ const components = [
     title: "Map.Form",
     category: "Map",
     authorId: "efiz.near",
-    path: "efiz.near/widget/Map.Form",
+    path: "/*__@appAccount__*//widget/Map.Form",
     description: "enabling users to put data on your map",
     demoProps: {},
     requiredProps: {
@@ -41,7 +41,7 @@ const components = [
     title: "Map.Inspect",
     category: "Map",
     authorId: "efiz.near",
-    path: "efiz.near/widget/Map.Inspect",
+    path: "/*__@appAccount__*//widget/Map.Inspect",
     description: "for viewing details of things on your map",
     demoProps: {},
     requiredProps: {
@@ -54,7 +54,7 @@ const components = [
     title: "Map.Mapbox",
     category: "Map",
     authorId: "efiz.near",
-    path: "efiz.near/widget/Map.Mapbox",
+    path: "/*__@appAccount__*//widget/Map.Mapbox",
     description: "core integration with Mapbox.js.",
     demoProps: {},
     requiredProps: {
@@ -80,7 +80,7 @@ const components = [
     category: "Map",
     authorId: "efiz.near",
 
-    path: "efiz.near/widget/Map.demo",
+    path: "/*__@appAccount__*//widget/Map.demo",
     description:
       "example / forkable template wrapping the Map.index component and passing necessary props",
     demoProps: {},

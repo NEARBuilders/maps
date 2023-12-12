@@ -46,11 +46,6 @@ const code = `
         background-image: url('${myMarkerAsset}') !important;
       }
 
-      h6 {
-        margin:0;
-        font-size: 16px;
-      }
-
       .mapboxgl-popup-content{
         background: rgb(25, 26, 26);
         color: white;
@@ -74,7 +69,7 @@ const code = `
   <body>
 
     <div id="map"></div>
-
+    
     <script>
     const accountId = "${accountId}";
     const isSetMarkerActive = ${edit};
@@ -151,7 +146,6 @@ const code = `
       const { lngLat } = event;
 
       if (selectedMarkerElement) {
-        // selectedMarkerElement.style.boxShadow = '';
         selectedMarkerElement = null;
       }
 
@@ -201,7 +195,6 @@ const Container = styled.div`
 return (
   <Container>
     <iframe
-      id="myMap"
       className="w-100 h-100"
       srcDoc={code}
       onMessage={(e) => {

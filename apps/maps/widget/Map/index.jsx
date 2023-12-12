@@ -141,7 +141,7 @@ return (
 
     {state.showInspect && (
       <Widget
-        src={"efiz.near/widget/Map.Inspect"}
+        src={"/*__@appAccount__*//widget/Map.Inspect"}
         props={{
           focusedMarker: state.focusedMarker,
           children: props.inspect,
@@ -181,7 +181,7 @@ return (
     )}
 
     <Widget
-      src={"efiz.near/widget/Map.Mapbox"}
+      src={"/*__@appAccount__*//widget/Map.Mapbox"}
       props={{
         API_URL,
         accessToken: MAP_TOKEN,

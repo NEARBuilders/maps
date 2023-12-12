@@ -1,3 +1,20 @@
 {
-  "appAccount": "maps.near"
+  "appAccount": "maps.near",
+  "router": {
+    "routes": {
+      "workspace": {
+        "type": "widget",
+        "path": "/*__@appAccount__*//widget/Map.Workspace"
+      },
+      "library": {
+        "path": "/*__@appAccount__*//widget/Map.Library"
+      },
+      "discussion": {
+        "path": "/*__@appAccount__*//widget/Map.Discussion"
+      },
+      "explore": {
+        "path": "/*__@appAccount__*//widget/Map.Explore"
+      }
+    }
+  }
 }
