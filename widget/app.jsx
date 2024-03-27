@@ -1,8 +1,8 @@
 const buttons = [
-  { icon: "bi bi-book", title: "Library", to: "/*__@appAccount__*//widget/Map.Library" },
-  { icon: "bi bi-hammer", title: "Workspace", to: "/*__@appAccount__*//widget/Map.Workspace" },
-  { icon: "bi bi-chat-left-dots", title: "Discussion", to: "/*__@appAccount__*//widget/Map.Discussion" },
-  { icon: "bi bi-globe", title: "Explore", to: "/*__@appAccount__*//widget/Map.Explore" },
+  { icon: "bi bi-book", title: "Library", to: "${config_account}/widget/Map.Library" },
+  { icon: "bi bi-hammer", title: "Workspace", to: "${config_account}/widget/Map.Workspace" },
+  { icon: "bi bi-chat-left-dots", title: "Discussion", to: "${config_account}/widget/Map.Discussion" },
+  { icon: "bi bi-globe", title: "Explore", to: "${config_account}/widget/Map.Explore" },
 ];
 
 const ButtonGrid = ({ buttons }) => {

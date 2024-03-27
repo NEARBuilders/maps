@@ -1,14 +1,17 @@
 {
-  "name": "near-maps",
-  "version": "0.0.0",
-  "description": "",
-  "author": "",
+  "name": "map.near",
+  "version": "0.0.8",
+  "description": "maps near you",
+  "author": "NEAR Builders",
   "license": "MIT",
   "scripts": {
-    "dev": "bos-workspace dev",
-    "build": "bos-workspace build"
+    "bw": "bos-workspace",
+    "dev": "bw dev",
+    "dev:testnet": "bw dev -n testnet",
+    "build": "bw build",
+    "build:testnet": "bw build -n testnet"
   },
   "devDependencies": {
-    "bos-workspace": "^0.0.1-alpha.4"
+    "bos-workspace": "^1.0.0-alpha"
   }
 }

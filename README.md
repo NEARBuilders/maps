@@ -1,6 +1,6 @@
-# maps
+# near maps
 
-## Getting Started
+## getting started
 
 To run locally, make sure you have [bos-workspace](https://github.com/sekaiking/bos-workspace) installed.
 
@@ -11,8 +11,3 @@ bw dev
 ```
 
 This will serve the widgets from `http://127.0.0.1:4040/`.
-
-
-## Next Steps
-
-- [ ] 
