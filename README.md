@@ -1,13 +1,17 @@
-# near maps
+# maps.near
 
-## getting started
+## Getting started
 
-To run locally, make sure you have [bos-workspace](https://github.com/sekaiking/bos-workspace) installed.
+1. Install packages
 
-Then, run the command:
-
-```bash
-bw dev
+```cmd
+npm install
 ```
 
-This will serve the widgets from `http://127.0.0.1:4040/`.
+2. Start dev environment
+
+```cmd
+npm run dev
+```
+
+This will start a gateway at [127.0.0.1:8080](http://127.0.0.1:8080) which will render your local widgets. The entry point for this app is [maps.near/widget/app](http://127.0.0.1:8080/maps.near/widget/app)
